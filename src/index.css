@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  @apply bg-flour font-body text-cocoa antialiased;
+  overscroll-behavior-y: none;
+}
+
+/* Visible focus for keyboard users without polluting touch UX */
+:focus-visible {
+  outline: 3px solid theme("colors.marinara");
+  outline-offset: 3px;
+  border-radius: 9999px;
+}
