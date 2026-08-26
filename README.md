@@ -25,4 +25,4 @@ To run this interactive prototype locally:
    npm install
 
 ## 🌐 Demo View from my portfolio
-https://www.mirandaliang.com/vibe-design
+https://www.mirandaliang.com/ai-design-experiment
